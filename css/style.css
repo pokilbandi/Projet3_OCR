@@ -475,12 +475,21 @@ header .food {
   font-family: "Montserrat", sans-serif;
 }
 
+.detail_menu {
+  width: 100%;
+}
+
+.img_menu {
+  align-self: center;
+}
+
 @media screen and (max-width: 768px) {
   .grid {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    justify-self: center;
   }
 
   .menu_enchante {
@@ -490,6 +499,7 @@ header .food {
     grid-column: 1;
     grid-row: 1;
     margin-top: 8em;
+    margin-left: 1em;
   }
 
   .menu_french {
@@ -498,6 +508,7 @@ header .food {
     width: 18em;
     grid-column: 1;
     grid-row: 2;
+    margin-left: 1em;
   }
 
   .menu_papilles {
@@ -506,6 +517,7 @@ header .food {
     width: 18em;
     grid-column: 1;
     grid-row: 3;
+    margin-right: 1em;
   }
 
   .menu_gout {
@@ -514,6 +526,7 @@ header .food {
     width: 18em;
     grid-column: 1;
     grid-row: 4;
+    margin-right: 1em;
   }
 
   .soon {
@@ -533,6 +546,96 @@ header .food {
     padding-right: 30px;
     padding-left: 30px;
     border-radius: 15px;
+  }
+
+  footer {
+    height: 60px;
+    font-size: 1em;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+  }
+
+  .contact {
+    padding-right: 1em;
+  }
+
+  .legal {
+    padding-left: 1em;
+  }
+
+  .img_menu {
+    width: 90%;
+    margin-left: 1em;
+    margin-right: 1.5em;
+    margin-bottom: 30em;
+    display: flex;
+    justify-content: center;
+  }
+
+  .underline1E {
+    z-index: 1;
+    position: absolute;
+    width: 6.2em;
+    height: 100px;
+    margin-top: 10em;
+    margin-left: 10.5em;
+  }
+
+  .underline1E:after {
+    content: "";
+    display: block;
+    width: 0%;
+    border-bottom: 3px solid black;
+    margin-top: 2em;
+    transition: width 0.3s;
+  }
+
+  .underline1E:hover:after {
+    width: 100%;
+  }
+
+  .underline2E {
+    z-index: 1;
+    position: absolute;
+    width: 6em;
+    height: 100px;
+    margin-top: 17em;
+    margin-left: 10.5em;
+  }
+
+  .underline2E:after {
+    content: "";
+    display: block;
+    width: 0%;
+    border-bottom: 3px solid black;
+    margin-top: 4em;
+    transition: width 0.3s;
+  }
+
+  .underline2E:hover:after {
+    width: 100%;
+  }
+
+  .underline3E {
+    z-index: 1;
+    position: absolute;
+    width: 7em;
+    height: 100px;
+    margin-top: 22.5em;
+    margin-left: 9.5em;
+  }
+
+  .underline3E:after {
+    content: "";
+    display: block;
+    width: 0%;
+    border-bottom: 3px solid black;
+    margin-top: 6em;
+    transition: width 0.3s;
+  }
+
+  .underline3E:hover:after {
+    width: 100%;
   }
 }
 body {
