@@ -1,0 +1,295 @@
+//* animation soulignement menu detaillé *//
+
+.img_menu {         //! image du menu //
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+.detail_menu {
+    position: relative;
+}
+
+        //* Animation La palette du gout *//
+
+.underline1G {        //! Animation Entrée //
+    z-index: 1;
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    margin-top: 27em;
+    margin-left: 33em;
+} 
+.underline1G:after {
+        content: "";
+        display: block;
+        width: 0%;
+        border-bottom: 3px solid #80cb79;
+        margin-top: 6em;
+        transition: width .3s;
+}
+.underline1G:hover:after {
+        width: 100%;
+}   
+
+
+.underline2G {          //! Animation Plat //
+    z-index: 1;
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    margin-top: 49em;
+    margin-left: 33em;
+}
+.underline2G:after {
+    content: "";
+    display: block;
+    width: 0%;
+    border-bottom: 3px solid #80cb79;
+    margin-top: 6em;
+    transition: width .3s;
+}
+.underline2G:hover:after {
+    width: 100%;
+} 
+
+
+.underline3G {             //! Animation Dessert //
+    z-index: 1;
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    margin-top: 70em;
+    margin-left: 33em;
+}
+.underline3G:after {
+    content: "";
+    display: block;
+    width: 0%;
+    border-bottom: 3px solid #80cb79;
+    margin-top: 6em;
+    transition: width .3s;
+}
+.underline3G:hover:after {
+    width: 100%;
+} 
+
+ 
+
+        //* Animation La note enchantée *//
+
+.underline1E {        //! Animation Entrée //
+    z-index: 1;
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    margin-top: 27em;
+    margin-left: 33em;
+}
+.underline1E:after {
+        content: "";
+        display: block;
+        width: 0%;
+        border-bottom: 3px solid black;
+        margin-top: 2em;
+        transition: width .3s;
+}
+.underline1E:hover:after {
+        width: 100%;
+}   
+
+
+.underline2E {          //! Animation Plat //
+    z-index: 1;
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    margin-top: 53em;
+    margin-left: 33em;
+}
+.underline2E:after {
+    content: "";
+    display: block;
+    width: 0%;
+    border-bottom: 3px solid black;
+    margin-top: 4em;
+    transition: width .3s;
+}
+.underline2E:hover:after {
+    width: 100%;
+} 
+
+
+.underline3E {             //! Animation Dessert //
+    z-index: 1;
+    position: absolute;
+    width: 320px;
+    height: 100px;
+    margin-top: 73em;
+    margin-left: 32em;
+}
+.underline3E:after {
+    content: "";
+    display: block;
+    width: 0%;
+    border-bottom: 3px solid black;
+    margin-top: 6em;
+    transition: width .3s;
+}
+.underline3E:hover:after {
+    width: 100%;
+} 
+
+
+//* Animation Le chic à la française *//
+
+.underline1F {        //! Animation Entrée //
+    z-index: 1;
+    position: absolute;
+    width: 425px;
+    height: 100px;
+    margin-top: 30em;
+    margin-left: 29em;
+}
+.underline1F:after {
+        content: "";
+        display: block;
+        width: 0%;
+        border-bottom: 3px solid #c67421;
+        margin-top: 2em;
+        transition: width .3s;
+}
+.underline1F:hover:after {
+        width: 100%;
+}   
+
+
+.underline2F {          //! Animation Plat //
+    z-index: 1;
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    margin-top: 51em;
+    margin-left: 30em;
+}
+.underline2F:after {
+    content: "";
+    display: block;
+    width: 0%;
+    border-bottom: 3px solid #a56798;
+    margin-top: 4em;
+    transition: width .3s;
+}
+.underline2F:hover:after {
+    width: 100%;
+} 
+
+
+.underline3F {             //! Animation Dessert //
+    z-index: 1;
+    position: absolute;
+    width: 420px;
+    height: 100px;
+    margin-top: 73em;
+    margin-left: 29em;
+}
+.underline3F:after {
+    content: "";
+    display: block;
+    width: 0%;
+    border-bottom: 3px solid #6e4cc9;
+    margin-top: 6em;
+    transition: width .3s;
+}
+.underline3F:hover:after {
+    width: 100%;
+} 
+        
+
+
+
+//* Animation Le délice des papilles *//
+
+.underline1P {        //! Animation Entrée //
+    z-index: 1;
+    position: absolute;
+    width: 350px;
+    height: 100px;
+    margin-top: 31em;
+    margin-left: 31em;
+}
+.underline1P:after {
+        content: "";
+        display: block;
+        width: 0%;
+        border-bottom: 3px solid #0029d9;
+        margin-top: 2em;
+        transition: width .3s;
+}
+.underline1P:hover:after {
+        width: 100%;
+}   
+
+
+.underline2P {          //! Animation Plat //
+    z-index: 1;
+    position: absolute;
+    width: 360px;
+    height: 100px;
+    margin-top: 51em;
+    margin-left: 31em;
+}
+.underline2P:after {
+    content: "";
+    display: block;
+    width: 0%;
+    border-bottom: 3px solid #0070ef;
+    margin-top: 4em;
+    transition: width .3s;
+}
+.underline2P:hover:after {
+    width: 100%;
+} 
+
+
+.underline3P {             //! Animation Dessert //
+    z-index: 1;
+    position: absolute;
+    width: 370px;
+    height: 100px;
+    margin-top: 70em;
+    margin-left: 31em;
+}
+.underline3P:after {
+    content: "";
+    display: block;
+    width: 0%;
+    border-bottom: 3px solid #1f9df6;
+    margin-top: 6em;
+    transition: width .3s;
+}
+.underline3P:hover:after {
+    width: 100%;
+} 
+
+
+//* Animation DOTS *//
+
+.dots {
+    position: relative;
+    display: inline-block;
+    font-size: 1.4rem;
+    }
+    .dots:after {
+    position: absolute;
+    margin-left: .1rem;
+    content: ' ...';
+    display: inline-block;
+    animation: loading steps(4) 2s infinite;
+    clip: rect(auto, 0px, auto, auto);
+    }
+    @keyframes loading {
+    to {
+    clip: rect(auto, 20px, auto, auto);
+    }
+    }
