@@ -2,16 +2,15 @@
 
 @mixin menu_smartphone {
     box-shadow: 0px 0px 15px -2px rgba(245,226,188,1);
-    margin-top: 40px;
     width: 18em;
 }
 
 
-
+//////////////////////////////////////* RESPONSIF *//////////////////////////////////
 
 @media screen and (max-width: 768px)
 {
-    //* RESPONSIF *//
+    
     
     //* ACCEUIL *//
 
@@ -27,7 +26,6 @@
     @include menu_smartphone;
     grid-column: 1;
     grid-row: 1;
-    margin-top: 8em;
     margin-left: 1em;
     
 }
@@ -52,114 +50,19 @@
 .soon {
     grid-column: 1;
     grid-row: 5;
-    display: flex;
-    align-items: center;
-    justify-content: center; 
-    & button {
-        background-color: #579C87;
-        color: #FDCB46;
-        font-size: 30px;
-        margin-top: 70px;
-        margin-bottom: 150px;
-        padding: 10px;
-        padding-right: 30px;
-        padding-left: 30px;
-        border-radius: 15px;
-    }
 }
 
     //* FOOTER *//
 
 footer {
-    height: 60px;
-    font-size: 1em;
-    font-family: "Montserrat", sans-serif;
-    font-weight: bolder;
-}
-.contact {
-    padding-right: 1em;
-}
-.legal {
-    padding-left: 1em;
+    font-size: 0.75em;
 }
 
     //* MENU DETAIL *//
 
-.img_menu {
-    width: 90%;
-    margin-left: 1em;
-    margin-right: 1.5em;
-    margin-bottom: 30em;
-    display: flex;
-    justify-content: center;
+.soulignement {
+    .underline:after {
+        border-bottom: 0.25vh solid
+    }
 }
-
-        //* ANIMATION MENU DETAIL *//
-    
-           //* Animation La note enchantée *//
-    
-    .underline1E {        //! Animation Entrée //
-    z-index: 1;
-    position: absolute;
-    width: 6.2em;
-    height: 100px;
-    margin-top: 10em;
-    margin-left: 10.5em;
 }
-.underline1E:after {
-        content: "";
-        display: block;
-        width: 0%;
-        border-bottom: 3px solid black;
-        margin-top: 2em;
-        transition: width .3s;
-}
-.underline1E:hover:after {
-        width: 100%;
-}   
-
-
-.underline2E {          //! Animation Plat //
-    z-index: 1;
-    position: absolute;
-    width: 6em;
-    height: 100px;
-    margin-top: 17em;
-    margin-left: 10.5em;
-}
-.underline2E:after {
-    content: "";
-    display: block;
-    width: 0%;
-    border-bottom: 3px solid black;
-    margin-top: 4em;
-    transition: width .3s;
-}
-.underline2E:hover:after {
-    width: 100%;
-} 
-
-
-.underline3E {             //! Animation Dessert //
-    z-index: 1;
-    position: absolute;
-    width: 7em;
-    height: 100px;
-    margin-top: 22.5em;
-    margin-left: 9.5em;
-}
-.underline3E:after {
-    content: "";
-    display: block;
-    width: 0%;
-    border-bottom: 3px solid black;
-    margin-top: 6em;
-    transition: width .3s;
-}
-.underline3E:hover:after {
-    width: 100%;
-} 
-        
-        
-}
-

@@ -5,6 +5,7 @@ header {
     right: 0;
     top: 0;
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -13,7 +14,7 @@ header {
     height: 120px;
     .food {
         color: #FDCB46;
-        font-size: 60px;
+        font-size: 3.5em;
         font-weight: bolder;
         font-family: "Montserrat", sans-serif;
     }
